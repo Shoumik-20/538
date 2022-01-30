@@ -20,3 +20,17 @@ bazel --version
 
 Once installed, you can upgrade to a newer version of Bazel using the following command:
 brew upgrade bazel
+
+
+Permanent change:
+Open up Terminal.
+Run the following command:
+
+sudo nano /etc/paths
+Enter your password, when prompted.
+Go to the bottom of the file, and enter the path you wish to add.
+Hit control-x to quit.
+Enter “Y” to save the modified buffer.
+That’s it!  To test it, in new terminal window, type:
+
+echo $PATH
